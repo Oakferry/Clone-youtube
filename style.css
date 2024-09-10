@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* TUDO-------- */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+/* CABEÇALHO----------------- */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 8px;
+}
+
+header .menu{
+    left: 24px;
+    padding: 10px 33px 6px 23px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+header .imgyoutube{
+    left: 24px;
+    padding: 6px 3px 6px 3px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+header .center{
+
+    border: 1px solid #ccc;
+    width: 404px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+header .center input{
+    width: 350px;
+    height: 30px;
+    border: none;
+    outline: none;  /* border cursor foco */
+    font-size: 20px;
+   
+}
+
+header .center button{
+    width: 57px;
+    height: 40px;
+    top: 8px;
+    left: 873px;
+    background-color: #f8f8f8;
+    border: 1px solid #CCCCCC;
+}
+
+
+
+header .right .live{
+    width: 24px;
+    height: 24px;
+    padding: 9px 17px 4px 10px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+header .right .notification{
+    width: 24px;
+    height: 24px;
+    padding: 10px 3px 6px 3px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+header .right .profile{
+    width: 34px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 12px 27px 6px 15px;
+
+}
+
+/* CORPO------------------ */
+
+main {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 25px;   
+}
+
+main .titleVideo{
+    font-family: Roboto;
+    font-weight: 500;
+    width: 871px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+    padding: 15px 0px 20px 0px;
+
+}
+
+main .barraInteracao{
+    display: flex;
+    padding: 25px 0px 20px 0px;
+    /* width: 1115; */
+    /* gap: 42px; */
+}
+
+.seguidores{
+    padding: 0px 80px 0px 10px;
+    
+}
+
+.subscribe2{
+    padding: 0px 50px 0px 0px;
+}
+
+.curtida{ 
+    padding: 0px 10px 0px 0px;
+}
+
+.textodescurtida{ 
+    padding: 0px 10px 0px 50px;
+}
+
+.vamo{
+    padding: 0px 50px 0px 0px;
+}
+
+.share{
+    padding: 0px 10px 0px 0px;
+}
+
+.vamoshare{
+    padding: 0px 50px 0px 0px;
+}
+
+.download{
+    padding: 0px 10px 0px 0px;
+}
+
+.vamodown{
+    padding: 0px 0px 0px 10px;
+}
+
+main .visualization{
+    padding: 0px 0px 20px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+    width: 1000px;
+    height: 17px;
+}
+
+main .bio{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    width: 600px;
+    height: 90px;
+
+}
+
+
+/* aside- SUGESTÃO DE VÍDEOS- direita */
+
+main aside{
+    height: 938px;
+    top: 84px;
+    left: 1052px;
+    gap: 16px;
+    display: flex;
+    flex-flow: column;
+    margin-left: 100px;
+}
+
+main aside section img{
+    display: flex;
+    width: 196px;
+} 
+
+main aside .sugestions1{
+    display: flex;
+    font-weight: 500;
+
+}
+
+.sugestions1 article{
+    padding: 0px 0px 0px 15px;
+    width: 220px;
+    height: 50px;
+    left: 176px;
+    font-family: Roboto;
+}
+
+
+
+main aside .sugestions2{
+    display: flex;
+    font-weight: 500;  
+}
+
+.sugestions2 article{
+    padding: 0px 0px 0px 15px;
+    width: 220px;
+    height: 2px;
+    left: 176px;
+    font-family: Roboto;
+}
+
+
+main aside .sugestions3{
+    display: flex;
+    font-weight: 500;
+}
+
+.sugestions3 article{
+    padding: 0px 0px 0px 15px;
+    width: 220px;
+    height: 32px;
+    left: 176px;
+    font-family: Roboto;
+}
+
+
+main aside .sugestions4{
+    display: flex;
+    font-weight: 500;
+}
+
+.sugestions4 article{
+    padding: 0px 0px 0px 15px;
+    width: 220px;
+    height: 32px;
+    left: 176px;
+    font-family: Roboto;
+}
+
+
+main aside .sugestions5{
+    display: flex;
+    font-weight: 500;
+}
+
+.sugestions5 article{
+    padding: 0px 0px 0px 15px;
+    width: 220px;
+    height: 32px;
+    left: 176px;
+    font-family: Roboto;
+}
+
+
+main aside .sugestions6{
+    display: flex;
+    font-weight: 500;
+}
+
+.sugestions6 article{
+    padding: 0px 0px 0px 15px;
+    width: 220px;
+    height: 32px;
+    left: 176px;
+    font-family: Roboto;
+}
+
+
+main aside .sugestions7{
+    display: flex;
+    font-weight: 500;
+}
+
+.sugestions7 article{
+    padding: 0px 0px 0px 15px;
+    width: 220px;
+    height: 32px;
+    left: 176px;
+    font-family: Roboto;
+}
+
+
+main aside .sugestions8{
+    display: flex;
+    font-weight: 500;
+}
+
+.sugestions8 article{
+    padding: 0px 0px 0px 15px;
+    width: 220px;
+    height: 32px;
+    left: 176px;
+    
+}
+
+.text01{
+    width: 250px;
+    height: 50px;
+    left: 176px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+
+
+}
+
+.text02{
+    width: 196px;
+    height: 14px;
+    top: 40px;
+    left: 176px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    padding: 4px;
+
+}
+
+aside .text03{
+    width: 196px;
+    height: 28px;
+    top: 45px;
+    left: 176px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+
+}
+
+
